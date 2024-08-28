@@ -7,7 +7,8 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "vercel-build": "npm run build && strapi start"
   },
   "devDependencies": {},
   "dependencies": {
@@ -25,7 +26,7 @@
     "uuid": "fd1159cd-5981-4881-877c-3cacd7f6dbf9"
   },
   "engines": {
-    "node": "18.x",
+    "node": "22.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
